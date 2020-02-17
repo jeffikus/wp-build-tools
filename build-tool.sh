@@ -5,7 +5,7 @@ clear
 echo "===================================================="
 echo "|             --  WordPress Design  --             |"
 echo "|              -- Theme Build Tool --              |"
-echo "|           --     Version 0.1.0      --           |"
+echo "|           --     Version 0.1.1      --           |"
 echo "===================================================="
 echo "Enter the name of your new theme:"
 
