@@ -1,0 +1,23 @@
+{
+    "name": "Jeff WP Build Tool",
+    "version": "0.1.0",
+    "description": "A build tool experiment for WP themes.",
+    "main": "build-tool.sh",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jeffikus/wp-build-tools.git"
+    },
+    "keywords": [
+      "build",
+      "wordpress"
+    ],
+    "author": "Automattic <jeffikus@automattic.com>",
+    "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/jeffikus/wp-build-tools/issues"
+    },
+    "homepage": "https://github.com/jeffikus/wp-build-tools#readme"
+  }

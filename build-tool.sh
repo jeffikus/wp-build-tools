@@ -4,8 +4,8 @@ clear
 # UI init
 echo "===================================================="
 echo "|             --  WordPress Design  --             |"
-echo "|              -- Varya Build Tool --              |"
-echo "|           --     Version 1.0.0      --           |"
+echo "|              -- Theme Build Tool --              |"
+echo "|           --     Version 0.1.0      --           |"
 echo "===================================================="
 echo "Enter the name of your new theme:"
 
