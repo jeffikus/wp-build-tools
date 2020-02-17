@@ -19,7 +19,7 @@ themenamevariation=${themename//-/_};
 themeuppervariation=${rawthemename// /_};
 
 # Make Child Theme directory
-mkdir -p ../../$themename/sass
+mkdir -p ../$themename/sass
 echo "Creating child theme in folder: $themename"
 
 # Copy SASS and package files from Design System
