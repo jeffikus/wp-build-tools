@@ -2,7 +2,7 @@
   "name": "jeff-wp-build-tools",
   "version": "0.1.1",
   "description": "A build tool experiment for WP themes.",
-  "main": "build-tool-sh",
+  "main": "build-tool.sh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

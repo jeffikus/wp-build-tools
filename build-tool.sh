@@ -5,7 +5,7 @@ clear
 echo "===================================================="
 echo "|             --  WordPress Design  --             |"
 echo "|              -- Theme Build Tool --              |"
-echo "|           --     Version 0.1.1      --           |"
+echo "|           --     Version 0.2.0      --           |"
 echo "===================================================="
 echo "Enter the name of your new theme:"
 
@@ -19,10 +19,11 @@ themenamevariation=${themename//-/_};
 themeuppervariation=${rawthemename// /_};
 
 # Make Child Theme directory
-mkdir -p ../$themename/sass
+mkdir -p ../$themename
 echo "Creating child theme in folder: $themename"
 
-# Copy SASS and package files from Design System
+# Copy child theme template from build tool into child theme
+cp node_modules/jeff-wp-build-tools/templates/varya-child/* ../$themename
 echo "Building your child theme...."
 
 # Find and replace - names and descriptions
